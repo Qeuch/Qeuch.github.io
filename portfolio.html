@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>                       <!-- link this to styles.css -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body{
+      background-color: black;
+    }
+    hr {
+      background-color: white;
+    }
+  </style>
 </head>
-<body bgcolor="beige">
-  <table border=5 bgcolor=FFF11F>
-    <tr>
-      <td><a href="index.html"><strong>Index</strong></a></td>
-      <td><a href="gallery.html"><strong>Gallery</strong></a></td>
-      <td><strong>Portfolio</strong></td>
-      <td><a href="contact.html"><strong>Contact Info</strong></a></td>
-    </tr>
-  </table>
-  <h3>Literature of my own</h3>
-    <ol>
-      <li> <a href="downloads/HavocTime.pdf">Havoc Time</a>
-      <li> <a href="http://thebestarrpeers.weebly.com/" target="_blank"> Collection of Literary Works. Not for the feint of heart. </a> </li>
-    </ol>
+<body>
+   <table border=5 class=indextable>
+        <tr>
 
+          <td width="25%">
+              <a href="index.html" style="text-decoration:none;">
+                <div class=tdportalanchor>
+                    Index
+                </div>
+              </a>
+          </td>
 
-  <table border="1" cellpadding="5" bgcolor="gray">
+          <td width="25%">
+            <a href="gallery.html" style="text-decoration:none;">
+              <div class="tdportalanchor">
+                Gallery
+              </div>
+            </a>
+          </td>
+
+          <td width="25%">
+            <a href="portfolio.html" style="text-decoration:none;">
+              <div class="tdportalcurrent">
+                Portfolio
+              </div>
+            </a>
+          </td>
+
+          <td width="25%">
+            <a href="contact.html" style="text-decoration:none;">
+              <div class="tdportalanchor">
+                Contact Info
+              </div>
+            </a>
+          </td>
+
+        </tr>
+      </table>
+
+  <!-- table of game111 artwork WIP -->
+<div style="background-color:white;border-style:solid;border-color:grey;padding-bottom:35px;">
+
+  <table border="1" cellpadding="5" bgcolor="gray" style="float:right;">
     <tr>
       <th colspan="2">Previous Academics</th>
     </tr>
@@ -36,5 +71,13 @@
       <td>Dalhousie University</td><td>English Literature</td>
     </tr>
   </table>
+    <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Literature of my own</h3>
+    <ol>
+      <li> <a href="downloads/HavocTime.pdf">Havoc Time</a>
+      <!-- <li> <a href="http://thebestarrpeers.weebly.com/" target="_blank"> Collection of Literary Works. Not for the feint of heart. </a> </li> -->
+    </ol>
+
+
+  </div>
 </body>
 </html>

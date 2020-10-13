@@ -1,0 +1,89 @@
+
+
+#myself{
+  font-style: italic;
+  color:black;
+}
+
+h3{
+  font-style: underline;
+}
+
+h3.fancy{  /* for spaghetti header */
+  font-family: century;
+  font-weight: bolder;
+}
+
+h4{
+  font-style: italic;
+}
+
+hr.spaghr{ /* hr for historia fabulosis */
+  width: 100%;
+  height: 5px;
+  background-color: black;
+}
+
+#spagformat{ /* formats historia fabulosus */
+  border-style: double;
+  border-width: 7px;
+  border-color: black; /* must declare border-style BEFORE border-color */
+  margin-left: 3px;
+  float: left;
+  color: black;
+  display: block;
+  background-color: white;
+  background-clip: padding-box;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rounded{ /* rounded icon from lecture - not needed */
+  padding: 3px;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+  border-color: black;
+}
+
+.catimage{ /* ONLY formats index.html images */
+  height: 150px;
+  width: 150px;
+}
+
+.spagimage{ /* ONLY formats spaghetti.html images */
+  display: inline;
+  height: 150px;
+  width: inherit;
+  border-style: dashed;
+  border-color: black;
+}
+
+.align{ /* use this to align images in spaghetti.html */
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: auto;
+}
+
+.indextable{
+  background-color: white;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.tdportalanchor{ /* turns portalcells into anchors */
+  font-weight:bold;
+  font-family:arial;
+  color:black;
+  height: 100%;
+  width: 100%;
+}
+
+.tdportalcurrent{ /* inverts color of current portal cell */
+  font-weight:bold;
+  font-family:arial;
+  color:white;
+  background-color:black;
+}
